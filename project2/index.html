@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GITHUB PROFILE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <div class="m-0 p-0 box-border">
+    <div class="flex flex-col h-screen items-center justify-center gap-6">
+      <h1 class="text-xl font-medium">
+        Search Github Profile
+      </h1>
+      <div class="flex w-4/12 ">
+        <input type="text" id="searchInput" name="searchInput" placeholder="Enter your Github Username.." class="px-1 py- w-full border focus:outline-none solid purple-900  focus-visible:ring"/>
+        <button class=" border bg-purple-700 text-white px-2 py-1 hover:bg-purple-900 active:bg-purple-600" id="search-btn">Search</button>
+      </div>
+      </div>
+      <div id="profileContainer" class=""></div>
+      <div id="loading"></div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
